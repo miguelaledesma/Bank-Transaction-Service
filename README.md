@@ -186,23 +186,8 @@ In developing the bank ledger, I made key assumptions that shaped the architectu
 
 3. Validation of User Existence: The application's logic includes checks to confirm the existence of a user in the system before processing any transactions. This is based on the assumption that transactions should only be processed for users who are already established within the banks system.
 
-## Bonus: Deployment considerations
+## Deployment considerations
 
 If I were to deploy this and cost wasn't an issue, I would host it on a cloud platform like AWS or Azure using their managed services. I would use either AWS Elastic Beanstalk or Azure App Service for easy deployment and scaling of the web application. For the database, I would use a managed relational database service like Amazon RDS or Azure SQL Database to ensure high availability and performance without the overhead of manual database administration. This setup would allow for automatic scaling, load balancing, and easy management of the application’s lifecycle.
 
 If I were to deploy this for free, I would probably use Google Cloud Platform's free tier which includes Google App Engine which can host this service and Cloud SQL where I can pick to use a PostgresSQL as a data store for the events and account data.
-
-## License
-
-At CodeScreen, we strongly value the integrity and privacy of our assessments. As a result, this repository is under exclusive copyright, which means you **do not** have permission to share your solution to this test publicly (i.e., inside a public GitHub/GitLab repo, on Reddit, etc.). <br>
-
-## Submitting your solution
-
-Please push your changes to the `main branch` of this repository. You can push one or more commits. <br>
-
-Once you are finished with the task, please click the `Submit Solution` link on <a href="https://app.codescreen.com/candidate/d50c3a0e-cf61-46c5-b9fe-7854e4237e4c" target="_blank">this screen</a>.
-
-```
-
-```
-# Bank-Transaction-Service
